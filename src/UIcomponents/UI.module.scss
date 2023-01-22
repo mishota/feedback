@@ -1,0 +1,33 @@
+%blueButton {
+  background: linear-gradient(180deg, #1ff2ff 0%, #27f9e5 52.66%, #2fffcd 100%);
+  border-radius: 8px;
+  min-height: 72px;
+  color: #0a1482;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  padding: 0px 20px;
+
+  &:hover {
+    color: #3b48d0;
+  }
+  &:active {
+    color: #ffffff;
+  }
+  &:disabled {
+    opacity: 0.4;
+  }
+}
+
+.blueButtonShort {
+  @extend %blueButton;
+  // min-width: 288px;
+}
+
+.blueButtonLong {
+  @extend %blueButton;
+  min-width: 497px;
+}

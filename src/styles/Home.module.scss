@@ -3,8 +3,37 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
+  // padding: 6rem;
   min-height: 100vh;
+  width: 100%;
+  background-color: #0c102d;
+  background: url("../../public/rear-view-programmer-working-all-night-long\ 1.png");
+  background-repeat: no-repeat;
+  mix-blend-mode: normal;
+  height: 2000px;
+  position: relative;
+  background-color: #0c102d;
+}
+.image_container {
+  width: 100%;
+}
+
+%blur {
+  position: absolute;
+  width: 356px;
+  height: 356px;
+  background: #2a3e84;
+  filter: blur(175px);
+}
+.left_blur {
+  @extend %blur;
+  left: 293px;
+  top: 499px;
+}
+.right_blur {
+  @extend %blur;
+  left: 1424px;
+  top: 388px;
 }
 
 .description {
@@ -97,7 +126,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +154,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }

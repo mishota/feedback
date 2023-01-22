@@ -1,0 +1,65 @@
+.main_container {
+  width: 63%;
+  position: relative;
+  @media (max-width: 1600px) {
+    width: 80%;
+  }
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+}
+.title_container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+.title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 150px;
+  line-height: 120%;
+  color: #ffffff;
+  // width: 70%;
+}
+.text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  width: 30%;
+}
+.note {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  color: #ffffff;
+  width: 100%;
+  text-align: end;
+}
+
+%blur {
+  position: absolute;
+  width: 356px;
+  height: 356px;
+  background: #2a3e84;
+  filter: blur(175px);
+}
+.left_blur {
+  @extend %blur;
+  left: 293px;
+  top: 499px;
+}
+.right_blur {
+  @extend %blur;
+  left: 1424px;
+  top: 388px;
+}
