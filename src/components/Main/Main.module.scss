@@ -1,5 +1,6 @@
 .main_container {
   width: 63%;
+  margin-top: 120px;
   position: relative;
   @media (max-width: 1600px) {
     width: 80%;
@@ -55,11 +56,11 @@
 }
 .left_blur {
   @extend %blur;
-  left: 293px;
+  left: 15%;
   top: 499px;
 }
 .right_blur {
   @extend %blur;
-  left: 1424px;
+  left: 70%;
   top: 388px;
 }
