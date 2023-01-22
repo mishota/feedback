@@ -1,0 +1,244 @@
+.main_container {
+  width: 63%;
+  position: relative;
+
+  color: #ffffff;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+  @media (max-width: 1600px) {
+    width: 80%;
+  }
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+}
+
+.side {
+  width: 49%;
+}
+
+.title {
+  margin-bottom: 5%;
+  width: 50%;
+  text-align: center;
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+}
+
+.content_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  // align-items: start;
+  width: 100%;
+  position: relative;
+}
+.center_line {
+  height: 877px;
+  width: 4px;
+  background: linear-gradient(180deg, #1ff2ff 0%, #27f9e5 52.66%, #2fffcd 100%);
+}
+.box_arrow_container {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.box_container {
+  position: relative;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  // background-color: #3b48d0;
+}
+.half_linear {
+  position: relative;
+  background: linear-gradient(#0c102d 0 0) padding-box,
+    linear-gradient(
+        90deg,
+        rgba(21, 191, 253, 0) 8.03%,
+        rgba(21, 191, 253, 0.7) 69.15%,
+        rgba(156, 55, 253, 0.7) 97.95%
+      )
+      border-box;
+  padding: 10px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  display: inline-block;
+  width: 146px;
+  height: 228px;
+}
+
+.main_box {
+  // align-self: end;
+  // justify-self: end;
+  margin: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 16px;
+  width: 475px;
+  width: 100%;
+  height: 191px;
+  background: rgba(255, 255, 255, 0.05);
+  background: linear-gradient(#0c102d 0 0) padding-box,
+    linear-gradient(
+        152.14deg,
+        rgba(21, 191, 253, 0.7) 9.96%,
+        rgba(156, 55, 253, 0.7) 100%
+      )
+      border-box;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  // display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.arrow_container {
+  align-self: center;
+  // background-color: #1ff2ff;
+  width: 20%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 20px;
+}
+.arrow {
+  width: 90%;
+  // display: flex;
+}
+
+.blue_round {
+  min-width: 24px;
+  min-height: 24px;
+  background: #3b48d0;
+  border-radius: 50%;
+}
+
+.step_number {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+}
+.step_title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+}
+.step_text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #a2cbfb;
+}
+
+%item {
+  // width: 234px;
+  // height: 350px;
+  padding: 0 11px;
+  width: 33%;
+  .title {
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    width: 100%;
+  }
+  .text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    width: 100%;
+    text-align: justify;
+  }
+
+  // width: 30%
+}
+.item_container {
+  position: relative;
+  background: linear-gradient(
+    152.14deg,
+    rgba(21, 191, 253, 0.7) 9.96%,
+    rgba(156, 55, 253, 0.7) 100%
+  );
+  border-radius: 16px;
+  min-width: 183px;
+  min-height: 232px;
+  -webkit-clip-path: polygon(100% 0, 100% 82%, 75% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 82%, 75% 100%, 0 100%, 0 0);
+}
+.item {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1px;
+  background-color: #0c102d;
+  border-radius: 16px;
+  min-width: 181px;
+  min-height: 230px;
+  -webkit-clip-path: polygon(100% 0, 100% 82%, 75% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 0, 100% 82%, 75% 100%, 0 100%, 0 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .image_container {
+    padding-top: 15%;
+    width: 90%;
+  }
+  .title {
+    margin-top: 10%;
+    font-family: "Clash Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+  }
+}
+
+.text {
+  padding-top: 10%;
+  width: 40%;
+  align-self: flex-start;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.wrap {
+  height: 200px;
+  width: 200px;
+  padding: 25px;
+  background: #00e4f6;
+}
+.gradient {
+  height: 150px;
+  width: 50%;
+  margin: 0 auto;
+  border: 10px solid transparent;
+  border-image: linear-gradient(to right, transparent 0%, #adf2f7 100%);
+  border-image-slice: 1;
+}
