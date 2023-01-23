@@ -4,7 +4,8 @@ import Main from "@/components/Main/Main";
 import Header from "@/components/Header/Header";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import Technologies from "@/components/Technologies/Technologies";
-import Steps from "@/components/steps/Steps";
+import Steps from "@/components/Steps/Steps";
+import Questions from "@/components/Questions/Questions";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
         <AboutUs />
         <Technologies />
         <Steps />
+        <Questions />
       </div>
     </>
   );
