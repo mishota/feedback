@@ -7,6 +7,7 @@ import Technologies from "@/components/Technologies/Technologies";
 import Steps from "@/components/Steps/Steps";
 import Questions from "@/components/Questions/Questions";
 import Review from "@/components/Review/Review";
+import Gallery from "@/components/Gallery/Gallery";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Steps />
         <Questions />
         <Review />
+        <Gallery />
       </div>
     </>
   );

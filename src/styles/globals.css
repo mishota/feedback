@@ -204,6 +204,7 @@ body {
   height: 100%;
   align-items: center;
   justify-content: space-between;
+  gap: 20px;
 }
 
 .flex_row_up {
@@ -213,4 +214,5 @@ body {
   height: 100%;
   align-items: start;
   justify-content: space-between;
+  gap: 20px;
 }
