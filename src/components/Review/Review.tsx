@@ -49,7 +49,7 @@ export default function Review() {
     if (step > 0 && current.id === reviewList.length) {
       setCurrent(reviewList[0]);
     } else if (step < 0 && current.id === 1) {
-      setCurrent(reviewList[reviewList.length-1]);
+      setCurrent(reviewList[reviewList.length - 1]);
     } else {
       const next = reviewList.find((elem) => elem.id === current.id + step);
       next && setCurrent(next);
@@ -68,7 +68,10 @@ export default function Review() {
         <div>
           {current.id}/{reviewList.length}
         </div>
-        <div className="flex_row_up" style={{ justifyContent: "end" }}>
+        <div
+          className="flex_row_up"
+          style={{ justifyContent: "end", gap: "10px" }}
+        >
           <div onClick={() => hadlerSwipe(-1)}>
             <Image src={arrowBox} alt="arrowBox" />
           </div>
@@ -83,28 +86,40 @@ export default function Review() {
           <div>{current.title}</div>
           <div>{current.text}</div>
         </div>
-        {reviewList.map((elem) => (
-          <div key={elem.id} className={styles.item_container}>
+        <div className="flex_row_up" style={{ gap: "10px" }}>
+          <div className={styles.item_container} style={{ width: "392px" }}>
             <div className={styles.item}>
-              <div className={styles.image_container}>
-                <Image src={elem.img} alt={elem.title} fill />
+              <div
+                className={styles.image_container}
+                style={{
+                  backgroundImage: "url(elem.img)",
+                  backgroundSize: "cover 100%",
+                }}
+              >
+                <Image src={current.img} alt={current.title} layout="fill" />
               </div>
-              <div className={styles.title}>{elem.title}</div>
             </div>
           </div>
-        ))}
-        {/* <div className={styles.item_container}>
-          <div className={styles.item}></div>
+          {reviewList
+            .filter((elem) => elem.id !== current.id)
+            .map((elem) => (
+              <div
+                key={elem.id}
+                className={styles.item_container}
+                style={{ width: elem.id === current.id ? "392px" : "180px" }}
+              >
+                <div className={styles.item}>
+                  <div className={styles.image_container}>
+                    <Image
+                      src={elem.img}
+                      alt={elem.title}
+                      className={styles.image}
+                    />
+                  </div>
+                </div>
+              </div>
+            ))}
         </div>
-        <div className={styles.item_container}>
-          <div className={styles.item}></div>
-        </div>
-        <div className={styles.item_container}>
-          <div className={styles.item}></div>
-        </div> */}
-        {/* <div className={styles.wrap}>
-          <div className={styles.gradient}></div>
-        </div> */}
       </div>
     </div>
   );
