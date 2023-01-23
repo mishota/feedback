@@ -6,6 +6,7 @@ import AboutUs from "@/components/AboutUs/AboutUs";
 import Technologies from "@/components/Technologies/Technologies";
 import Steps from "@/components/Steps/Steps";
 import Questions from "@/components/Questions/Questions";
+import Review from "@/components/Review/Review";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
         <Technologies />
         <Steps />
         <Questions />
+        <Review />
       </div>
     </>
   );
