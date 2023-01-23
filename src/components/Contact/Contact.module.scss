@@ -1,0 +1,80 @@
+.main_container {
+  width: 63%;
+  position: relative;
+// min-height: 500px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  padding-top: 50px;
+  @media (max-width: 1600px) {
+    width: 80%;
+  }
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+}
+.main_box {
+  // align-self: end;
+  // justify-self: end;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  gap: 16px;
+  width: 100%;
+  // min-height: 300px;
+  background: rgba(255, 255, 255, 0.05);
+  background: linear-gradient(#0c102d 0 0) padding-box,
+    linear-gradient(
+        152.14deg,
+        rgba(21, 191, 253, 0.7) 9.96%,
+        rgba(156, 55, 253, 0.7) 100%
+      )
+      border-box;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  // display: inline-block;
+  // position: absolute;
+  // top: 0;
+  // right: 0;
+  @media (max-width: 1000px) {
+    padding: 8px;
+  }
+}
+.title_container {
+  position: relative;
+  margin-bottom: 5%;
+  width: 50%;
+  text-align: center;
+}
+.title {
+  font-family: "Clash Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 120%;
+}
+
+.input {
+  // align-self: end;
+  // justify-self: end;
+  margin-bottom: 18px;
+  
+  padding: 24px;
+  width: 100%;
+  min-height: 70px;
+  background: rgba(255, 255, 255, 0.05);
+  background: linear-gradient(#0c102d 0 0) padding-box,
+    linear-gradient(
+        152.14deg,
+        rgba(21, 191, 253, 0.7) 9.96%,
+        rgba(156, 55, 253, 0.7) 100%
+      )
+      border-box;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  
+}

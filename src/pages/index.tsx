@@ -8,6 +8,8 @@ import Steps from "@/components/Steps/Steps";
 import Questions from "@/components/Questions/Questions";
 import Review from "@/components/Review/Review";
 import Gallery from "@/components/Gallery/Gallery";
+import Contact from "@/components/Contact/Contact";
+import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
@@ -27,6 +29,8 @@ export default function Home() {
         <Questions />
         <Review />
         <Gallery />
+        <Contact />
+        <Footer/>
       </div>
     </>
   );
