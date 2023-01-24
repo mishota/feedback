@@ -99,6 +99,9 @@ a {
   color: inherit;
   text-decoration: none;
 }
+input {
+  color: white;
+}
 
 @media (prefers-color-scheme: dark) {
   html {
@@ -192,7 +195,7 @@ body {
   flex-direction: column;
   width: 100%;
   align-items: center;
-  justify-content:start;
+  justify-content: start;
   /* background-color: red; */
   /* min-height: 100%; */
 }

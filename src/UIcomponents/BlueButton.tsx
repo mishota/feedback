@@ -5,7 +5,7 @@ import styles from "./UI.module.scss";
 
 type PropsType = {
   title: string;
-  callBackFunction?: () => void;
+  callBackFunction?: any;
   fill?: boolean;
 };
 
