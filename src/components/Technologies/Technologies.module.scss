@@ -1,7 +1,6 @@
 .main_container {
   width: 63%;
   position: relative;
-
   color: #ffffff;
   margin-top: 150px;
   display: flex;
@@ -13,6 +12,23 @@
   @media (max-width: 1200px) {
     width: 90%;
   }
+}
+%blur {
+  position: absolute;
+  width: 356px;
+  height: 356px;
+  background: #2a3e84;
+  filter: blur(175px);
+}
+.left_blur {
+  @extend %blur;
+  left: 0;
+  top: 60%;
+}
+.right_blur {
+  @extend %blur;
+  left: 90%;
+  top: 10%;
 }
 .title_container {
   position: relative;
@@ -48,8 +64,6 @@
 }
 
 %item {
-  // width: 234px;
-  // height: 350px;
   padding: 0 11px;
   width: 33%;
   .title {
@@ -70,8 +84,6 @@
     width: 100%;
     text-align: justify;
   }
-
-  // width: 30%
 }
 .item_container {
   position: relative;

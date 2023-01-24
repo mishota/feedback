@@ -1,7 +1,6 @@
 .main_container {
   width: 63%;
   position: relative;
-// min-height: 500px;
   margin-top: 150px;
   display: flex;
   flex-direction: column;
@@ -16,8 +15,6 @@
   }
 }
 .main_box {
-  // align-self: end;
-  // justify-self: end;
   margin: 40px;
   display: flex;
   flex-direction: column;
@@ -25,7 +22,6 @@
   padding: 80px;
   gap: 16px;
   width: 100%;
-  // min-height: 300px;
   background: rgba(255, 255, 255, 0.05);
   background: linear-gradient(#0c102d 0 0) padding-box,
     linear-gradient(
@@ -36,10 +32,6 @@
       border-box;
   border: 1px solid transparent;
   border-radius: 8px;
-  // display: inline-block;
-  // position: absolute;
-  // top: 0;
-  // right: 0;
   @media (max-width: 1000px) {
     padding: 8px;
   }
@@ -59,10 +51,8 @@
 }
 
 .input {
-  // align-self: end;
-  // justify-self: end;
   margin-bottom: 18px;
-  
+
   padding: 24px;
   width: 100%;
   min-height: 70px;
@@ -76,5 +66,4 @@
       border-box;
   border: 1px solid transparent;
   border-radius: 8px;
-  
 }

@@ -64,6 +64,8 @@ export default function Questions() {
   };
   return (
     <div className={styles.main_container}>
+      <div className={styles.left_blur} />
+      <div className={styles.right_blur} />
       <div className={styles.title_container}>
         <div className={styles.star1} />
         <div className={styles.star2} />
@@ -76,7 +78,6 @@ export default function Questions() {
           <div className={styles.description}>
             Do you have any kind of questions? We are here to help.
           </div>
-          {/* <Image src={Question} alt="Question" /> */}
         </div>
 
         <div className="flex_column" style={{ width: "100%", gap: "15px" }}>

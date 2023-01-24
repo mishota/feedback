@@ -15,6 +15,8 @@ const items = [
 export default function Technologies() {
   return (
     <div className={styles.main_container}>
+      <div className={styles.left_blur} />
+      <div className={styles.right_blur} />
       <div className={styles.title_container}>
         <div className={styles.star1} />
         <div className={styles.star2} />
@@ -24,7 +26,6 @@ export default function Technologies() {
       </div>
 
       <div className={styles.description}>
-        {" "}
         By the end, you’ll have the portfolio and interview skills you need to
         start your new career.
       </div>
@@ -40,18 +41,6 @@ export default function Technologies() {
             </div>
           </div>
         ))}
-        {/* <div className={styles.item_container}>
-          <div className={styles.item}></div>
-        </div>
-        <div className={styles.item_container}>
-          <div className={styles.item}></div>
-        </div>
-        <div className={styles.item_container}>
-          <div className={styles.item}></div>
-        </div> */}
-        {/* <div className={styles.wrap}>
-          <div className={styles.gradient}></div>
-        </div> */}
       </div>
     </div>
   );

@@ -1,9 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  // justify-content: space-between;
   align-items: center;
-  // padding: 6rem;
   min-height: 100vh;
   width: 100%;
   background-color: #0c102d;
@@ -11,9 +9,7 @@
   background-repeat: no-repeat no-repeat;
   background-position: 0 0, -80px 63%;
   background-size: cover 30%;
-  // filter: blur(5px);
   mix-blend-mode: normal;
-  // height: 2000px;
   position: relative;
   background-color: #0c102d;
 }

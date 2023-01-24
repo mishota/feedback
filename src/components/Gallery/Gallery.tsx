@@ -8,6 +8,8 @@ import developer4 from "@/../public/developer4.png";
 export default function Gallery() {
   return (
     <div className={styles.main_container}>
+      <div className={styles.left_blur} />
+      <div className={styles.right_blur} />
       <div className={styles.title_container}>
         <div className={styles.star1} />
         <div className={styles.star2} />
@@ -27,10 +29,7 @@ export default function Gallery() {
           </div>
         </div>
         <div className={styles.right}>
-          <div
-            className="flex_row_up"
-            // style={{ justifyContent: "end", gap: "10px" }}
-          >
+          <div className="flex_row_up">
             <div style={{ width: "60%" }} className={styles.image}>
               <Image src={developer2} alt="developer" />
             </div>

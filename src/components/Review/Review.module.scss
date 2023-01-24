@@ -40,8 +40,6 @@
 }
 
 %item {
-  // width: 234px;
-  // height: 350px;
   padding: 0 11px;
   width: 33%;
   .title {
@@ -62,8 +60,6 @@
     width: 100%;
     text-align: justify;
   }
-
-  // width: 30%
 }
 .item_container {
   position: relative;
@@ -73,7 +69,6 @@
     rgba(156, 55, 253, 0.7) 100%
   );
   border-radius: 16px;
-  // min-width: 183px;
   min-height: 422px;
   -webkit-clip-path: polygon(100% 0, 100% 82%, 75% 100%, 0 100%, 0 0);
   clip-path: polygon(100% 0, 100% 82%, 75% 100%, 0 100%, 0 0);
@@ -86,7 +81,6 @@
   overflow: hidden;
 
   border-radius: 16px;
-  // min-width: 181px;
   width: 99%;
   min-height: 420px;
   -webkit-clip-path: polygon(100% 0, 100% 82%, 75% 100%, 0 100%, 0 0);

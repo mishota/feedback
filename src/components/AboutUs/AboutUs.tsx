@@ -1,7 +1,6 @@
 import { Inter } from "@next/font/google";
 import styles from "./AboutUs.module.scss";
 import Image from "next/image";
-import StarBig from "@/../public/StarBig.png";
 import Line from "@/../public/line.png";
 
 import WadeWarren from "@/../public/WadeWarren.png";

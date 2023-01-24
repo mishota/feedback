@@ -14,7 +14,6 @@
 .title_container {
   position: relative;
   margin-bottom: 5%;
-  // background-color: aqua;
 }
 .title {
   font-family: "Clash Display";
@@ -66,8 +65,6 @@
   min-height: 300px;
   display: flex;
   flex-direction: column;
-  // justify-content: center;
-  // background-color: bisque;
   font-family: "Clash Display";
   font-style: normal;
   font-weight: 600;
@@ -80,7 +77,6 @@
   align-self: center;
   text-align: center;
   position: relative;
-  // background-color: aqua;
 }
 .line {
   width: 100%;
@@ -93,8 +89,6 @@
   min-height: 300px;
 }
 %item {
-  // width: 234px;
-  // height: 350px;
   padding: 0 11px;
   width: 33%;
   .title {
@@ -115,8 +109,6 @@
     width: 100%;
     text-align: justify;
   }
-
-  // width: 30%
 }
 .item1 {
   @extend %item;

@@ -48,6 +48,8 @@ const itemsR = [
 export default function Steps() {
   return (
     <div className={styles.main_container}>
+      <div className={styles.left_blur} />
+      <div className={styles.right_blur} />
       <div className={styles.title}> Steps</div>
 
       <div className={styles.content_container}>
