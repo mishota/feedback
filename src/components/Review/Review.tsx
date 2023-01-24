@@ -1,6 +1,5 @@
 import styles from "./Review.module.scss";
 import Image, { StaticImageData } from "next/image";
-import StarBig from "@/../public/StarBig.png";
 import arrowBox from "@/../public/arrowBox.png";
 import arrowBoxR from "@/../public/arrowBoxR.png";
 

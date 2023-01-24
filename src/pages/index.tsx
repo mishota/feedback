@@ -4,7 +4,7 @@ import Main from "@/components/Main/Main";
 import Header from "@/components/Header/Header";
 import AboutUs from "@/components/AboutUs/AboutUs";
 import Technologies from "@/components/Technologies/Technologies";
-import Steps from "@/components/Steps/Steps";
+import Steps from "@/components/steps/Steps";
 import Questions from "@/components/Questions/Questions";
 import Review from "@/components/Review/Review";
 import Gallery from "@/components/Gallery/Gallery";

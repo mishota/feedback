@@ -1,5 +1,4 @@
 import instance from "@/api/instanse";
-import BlueButton from "@/UIcomponents/BlueButton";
 import { useForm } from "react-hook-form";
 import { SubmitHandler } from "react-hook-form/dist/types";
 import styles from "./Contact.module.scss";

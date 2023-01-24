@@ -1,12 +1,6 @@
 import { Inter } from "@next/font/google";
 import styles from "./Technologies.module.scss";
 import Image from "next/image";
-import StarBig from "@/../public/StarBig.png";
-import Line from "@/../public/line.png";
-
-import WadeWarren from "@/../public/WadeWarren.png";
-import KristinWatson from "@/../public/KristinWatson.png";
-import RobertFox from "@/../public/RobertFox.png";
 import angular from "@/../public/angular.png";
 import react from "@/../public/react.png";
 import vue from "@/../public/vue.png";

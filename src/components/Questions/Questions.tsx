@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Questions.module.scss";
-import Image from "next/image";
 
 import { useState } from "react";
 
